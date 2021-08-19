@@ -5,7 +5,7 @@
   "description": "Ecommerce website",
   "main": "index.js",
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
+    "build": "cd frontend && npm install && npm start",
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
   "repository": {
@@ -24,6 +24,8 @@
     "mailgun-js": "^0.22.0",
     "mongoose": "^5.10.7",
     "multer": "^1.4.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.1",
     "socket.io": "^4.0.1"
   },
   "devDependencies": {
